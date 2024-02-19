@@ -42,7 +42,9 @@ export default function Index() {
             hello world
           </h1>
           <span
-            className="inline-block text-lg leading-7 align-top border-0 border-solid sm:text-xl sm:leading-7 border-slate-700 text-neutral-400"
+            className="inline-block text-lg leading-7 
+            font-serif
+            align-top border-0 border-solid sm:text-xl sm:leading-7 border-slate-700 text-neutral-400"
             data-br=":Rjrqdtsla:"
             data-brr="1"
           >
