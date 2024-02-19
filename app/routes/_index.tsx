@@ -12,6 +12,7 @@ import {
 } from "~/components/ui/card";
 import { Switch } from "@radix-ui/react-switch";
 import { cn } from "~/lib/utils";
+import { FancyTitle } from "~/components/fancy-title";
 
 export const meta: MetaFunction = () => {
   return [
@@ -37,10 +38,12 @@ export default function Index() {
             className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 
           text-5xl font-extrabold leading-10 
           font-sans
+          w-full h-24
           inline-block text-transparent bg-clip-text"
           >
-            hello world
+            Starter of Z
           </h1>
+          <FancyTitle />
           <span
             className="inline-block text-lg leading-7 
             font-serif

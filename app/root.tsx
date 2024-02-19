@@ -6,8 +6,8 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-import tailwindcss from "./assets/tailwind.css?url";
-import { LinksFunction, json } from "@remix-run/node";
+import "./assets/tailwind.css";
+import { LinksFunction, LoaderFunctionArgs, json } from "@remix-run/node";
 import {
   ClientHintCheck,
   getHints,
@@ -21,7 +21,7 @@ const googleFonts = `https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ita
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: googleFonts },
-  { rel: "stylesheet", href: tailwindcss },
+  // { rel: "stylesheet", href: tailwindcss },
 ];
 export const loader = async ({ request }: LoaderFunctionArgs) => {
   return json({
