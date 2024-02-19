@@ -6,9 +6,12 @@ Welcome to the Remix Web Project Template! This template is designed to kickstar
 
 - **Remix**: A powerful and flexible framework that lets you build better websites faster. Remix is designed to take full advantage of the web platform, providing a seamless development experience.
 - **Tailwind CSS**: A utility-first CSS framework packed with classes like `flex`, `pt-4`, `text-center`, and `rotate-90` that can be composed to build any design, directly in your markup.
-- **Radix UI**: An unstyled, accessible component library for building high-quality, customizable user interfaces with ease.
+
 - **Google Fonts**: We've included a couple of the most popular Google Fonts to make your web applications look beautiful right from the start.
 
+- **Shadcn UI**
+
+> Remove Radix-theme. Hard to make it work with Vite + Remix
 
 ## Development
 
