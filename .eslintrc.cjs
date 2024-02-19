@@ -47,6 +47,16 @@ module.exports = {
           typescript: {},
         },
       },
+      rules: {
+        "jsx-a11y/heading-has-content": "off",
+        "react/prop-types": [
+          1,
+          {
+            ignore: ["children", "className"],
+            skipUndeclared: true,
+          },
+        ],
+      },
     },
 
     // Typescript
