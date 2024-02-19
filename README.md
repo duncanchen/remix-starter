@@ -1,6 +1,14 @@
-# Welcome to Remix + Vite!
+# Remix Web Project Template
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
+Welcome to the Remix Web Project Template! This template is designed to kickstart your web development projects by providing a solid foundation with some of the best tools in the industry. Whether you're building a small personal project or a large-scale application, this template has you covered.
+
+## Features
+
+- **Remix**: A powerful and flexible framework that lets you build better websites faster. Remix is designed to take full advantage of the web platform, providing a seamless development experience.
+- **Tailwind CSS**: A utility-first CSS framework packed with classes like `flex`, `pt-4`, `text-center`, and `rotate-90` that can be composed to build any design, directly in your markup.
+- **Radix UI**: An unstyled, accessible component library for building high-quality, customizable user interfaces with ease.
+- **Google Fonts**: We've included a couple of the most popular Google Fonts to make your web applications look beautiful right from the start.
+
 
 ## Development
 
